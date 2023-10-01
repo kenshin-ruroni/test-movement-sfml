@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestMovementSFML\\TestMovementSFML\\TestMovementSFML.csproj": {}
+    "D:\\GitHub\\test-movement-sfml\\TestMovementSFML.csproj": {}
   },
   "projects": {
-    "D:\\TestMovementSFML\\TestMovementSFML\\TestMovementSFML.csproj": {
+    "D:\\GitHub\\test-movement-sfml\\TestMovementSFML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestMovementSFML\\TestMovementSFML\\TestMovementSFML.csproj",
+        "projectUniqueName": "D:\\GitHub\\test-movement-sfml\\TestMovementSFML.csproj",
         "projectName": "TestMovementSFML",
-        "projectPath": "D:\\TestMovementSFML\\TestMovementSFML\\TestMovementSFML.csproj",
+        "projectPath": "D:\\GitHub\\test-movement-sfml\\TestMovementSFML.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\TestMovementSFML\\TestMovementSFML\\obj\\",
+        "outputPath": "D:\\GitHub\\test-movement-sfml\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",

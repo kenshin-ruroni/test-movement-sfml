@@ -25,7 +25,7 @@ public class KeysState
         {
             public Game()
             {
-                string path = "D:\\TestMovementSFML\\TestMovementSFML\\wargames.ttf";
+                string path = "D:\\GitHub\\test-movement-sfml\\wargames.ttf";
         font = new SFML.Graphics.Font(path);
         System.Console.WriteLine( font.GetInfo().Family.ToString() );
                         CreateSFMLWindow();
@@ -77,7 +77,7 @@ public class KeysState
 
                 if (Distance(mouse.Position, cat.Position) < maxDistance)
                 {
-                    catVelocity = 0.3f * (mouse.Position - cat.Position);
+                    catVelocity = 0.4f * (mouse.Position - cat.Position);
                 }
                 else
                 {
@@ -92,8 +92,8 @@ public class KeysState
                     else // if (deltaTime > 10)
                     {
                    
-                            catVelocity.X += deltaTime  * getRandom(100);
-                            catVelocity.Y += deltaTime  *  getRandom(100); 
+                            catVelocity.X += deltaTime * getRandom(100);
+                            catVelocity.Y += deltaTime *  getRandom(100); 
                    
                     }
                 }
@@ -103,7 +103,7 @@ public class KeysState
             cat.Position += catVelocity * deltaTime;
 
 
-            zone.Position = cat.Position; 
+            zone.Position = cat.Position - new Vector2f(zone.Radius,zone.Radius); 
               //  catPosition.DisplayedString = "cat velocity "+catVelocity.ToString();
 
                 renderWindow.Draw(mouse);

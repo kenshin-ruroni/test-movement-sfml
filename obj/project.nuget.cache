@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SxOuUaFKDuVUdx5Qg3WnjJfXBHBqTTmdwFKvueudJ+OiZLwSA9ZNU6IKnPCQaSA+1yTCBj7Z8o/haARPba6gg==",
+  "dgSpecHash": "wjCRVMyi7fHa9GnUyqZuJeqv57AobvUcgOResHxcL+tQY1MOr9/ERkOCVe5qC2JzZcXSDeqYpkTTtVPumElgHA==",
   "success": true,
-  "projectFilePath": "D:\\TestMovementSFML\\TestMovementSFML\\TestMovementSFML.csproj",
+  "projectFilePath": "D:\\GitHub\\test-movement-sfml\\TestMovementSFML.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patri\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
