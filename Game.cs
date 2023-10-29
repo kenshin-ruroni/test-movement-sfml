@@ -57,7 +57,7 @@ public class KeysState
         cat.Origin = new Vector2f(-cat.Radius,-cat.Radius);
         zone.Origin = new Vector2f(-zone.Radius, -zone.Radius);
         mouse.Origin = new Vector2f(-mouse.Radius, -mouse.Radius);
-        float maxD = 100;
+        float maxD = 200;
 
         zone.Radius = maxD;
         zone.OutlineColor = new SFML.Graphics.Color(20, 20, 20);
